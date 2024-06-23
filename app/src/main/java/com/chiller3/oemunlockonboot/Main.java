@@ -5,11 +5,14 @@ import android.os.IBinder;
 import android.os.IInterface;
 import android.os.Process;
 import android.system.ErrnoException;
+import android.util.Log;
 
 import java.lang.reflect.Method;
 
 @SuppressLint({"DiscouragedPrivateApi", "PrivateApi", "SoonBlockedPrivateApi"})
 public class Main {
+    private static final String TAG = "OEMUnlockOnBoot";
+
     private static final int GET_SERVICE_ATTEMPTS = 30;
 
     @SuppressWarnings("SameParameterValue")
@@ -47,11 +50,11 @@ public class Main {
 
         Boolean unlockAllowed = (Boolean) isOemUnlockAllowedByUser.invoke(iFace);
         if (unlockAllowed) {
-            System.out.println("OEM unlocking already enabled");
+            Log.i(TAG, "OEM unlocking already enabled");
             return;
         }
 
-        System.out.println("Enabling OEM unlocking");
+        Log.i(TAG, "Enabling OEM unlocking");
         setOemUnlockAllowedByUser.invoke(iFace, true);
     }
 
@@ -77,8 +80,7 @@ public class Main {
             switchToSystemUid();
             unlock();
         } catch (Exception e) {
-            System.err.println("Failed to enable OEM unlocking");
-            e.printStackTrace();
+            Log.e(TAG, "Failed to enable OEM unlocking", e);
             System.exit(1);
         }
     }
