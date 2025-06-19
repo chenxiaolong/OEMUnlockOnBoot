@@ -7,7 +7,7 @@
     to update the actual links at the bottom of the file.
 -->
 
-### Unreleased
+### Version 1.2
 
 * Update checksum for `tensorflow-lite-metadata-0.1.0-rc2.pom` dependency ([PR #3])
 * Update build script dependencies and target API 36 ([PR #6])
