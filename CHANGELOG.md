@@ -10,6 +10,7 @@
 ### Unreleased
 
 * Remove dependency info block from APK ([PR #7])
+* Update dependencies ([PR #8])
 
 ### Version 1.2
 
@@ -29,3 +30,4 @@
 [PR #3]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/3
 [PR #6]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/6
 [PR #7]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/7
+[PR #8]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/8
