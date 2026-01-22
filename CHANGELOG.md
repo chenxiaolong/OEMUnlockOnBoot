@@ -9,6 +9,8 @@
 
 ### Unreleased
 
+* Update AGP to 9.0.0 ([PR #9])
+
 ### Version 1.3
 
 * Remove dependency info block from APK ([PR #7])
@@ -33,3 +35,4 @@
 [PR #6]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/6
 [PR #7]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/7
 [PR #8]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/8
+[PR #9]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/9
