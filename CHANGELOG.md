@@ -10,7 +10,7 @@
 ### Unreleased
 
 * Update AGP to 9.0.0 ([PR #9])
-* Reenable default proguard optimizations ([PR #10])
+* Reenable default proguard optimizations ([PR #10], [PR #11])
   * For folks who want to decode stack traces from log files, the mapping files are now included with the official releases in `mappings.tar.zst`
 
 ### Version 1.3
@@ -39,3 +39,4 @@
 [PR #8]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/8
 [PR #9]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/9
 [PR #10]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/10
+[PR #11]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/11
