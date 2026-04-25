@@ -1,8 +1,5 @@
 # OEMUnlockOnBoot
 
-[![latest release badge](https://img.shields.io/github/v/release/chenxiaolong/OEMUnlockOnBoot?sort=semver)](https://github.com/chenxiaolong/OEMUnlockOnBoot/releases/latest)
-[![license badge](https://img.shields.io/github/license/chenxiaolong/OEMUnlockOnBoot)](./LICENSE)
-
 OEMUnlockOnBoot is a simple Magisk/KernelSU module that ensures Android's `OEM unlocking` toggle is enabled on every boot. It is meant for use in setups where the bootloader is locked with the user's key (eg. with [avbroot](https://github.com/chenxiaolong/avbroot)) to ensure that the device is always recoverable in the event of a boot failure.
 
 ## Usage
@@ -31,4 +28,4 @@ The output file is written to `app/build/distributions/release/`.
 
 ## License
 
-OEMUnlockOnBoot is licensed under GPLv3. Please see [`LICENSE`](./LICENSE) for the full license text.
+OEMUnlockOnBoot is licensed under GPL-3.0-only. Please see [`LICENSE`](./LICENSE) for the full license text.
