@@ -9,6 +9,8 @@
 
 ### Unreleased
 
+* Minor build system cleanup ([PR #15])
+
 ### Version 1.4
 
 * Update AGP to 9.0.0 ([PR #9])
@@ -44,3 +46,4 @@
 [PR #10]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/10
 [PR #11]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/11
 [PR #13]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/13
+[PR #15]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/15
