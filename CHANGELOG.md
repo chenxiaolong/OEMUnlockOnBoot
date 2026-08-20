@@ -10,6 +10,7 @@
 ### Unreleased
 
 * Minor build system cleanup ([PR #15])
+* Update dependencies ([PR #16])
 
 ### Version 1.4
 
@@ -47,3 +48,4 @@
 [PR #11]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/11
 [PR #13]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/13
 [PR #15]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/15
+[PR #16]: https://github.com/chenxiaolong/OEMUnlockOnBoot/pull/16
